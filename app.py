@@ -11,7 +11,7 @@ with open('scaler.pkl', 'rb') as f:
 st.title("Titanic Survival Prediction")
 st.write("Enter the 9 features below (comma-separated):")
 
-Input from user
+#Input from user
 user_input = st.text_input("Enter values (e.g., 3,22,1,0,7.25,0,1,5,2)")
 
 if st.button("Predict"):
